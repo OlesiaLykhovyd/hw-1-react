@@ -1,0 +1,44 @@
+.item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 1px rgb(0 0 0 / 14%),
+    0 2px 1px rgb(0 0 0 / 20%);
+
+  padding: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.status {
+  display: block;
+
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+
+  border-radius: 50%;
+}
+
+.statusTrue {
+  background-color: green;
+}
+
+.statusFalse {
+  background-color: red;
+}
+
+.avatar {
+  margin-right: 15px;
+  border: 1px solid #bec3c7;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+}
